@@ -120,3 +120,279 @@
     text-align: center;
     padding-bottom: 50px;
 }
+=======
+
+.NHcontainer{
+    width: 100%;
+}
+.NHcenter{
+    margin: auto;
+    width: 80%;
+}
+.NHhead{
+    padding-top: 40px;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 3%;
+    top: 0;
+    z-index: 1;
+    backdrop-filter: blur(7px);
+}
+.NHhead ul {
+    display: flex;
+    gap: 50px;
+}
+.NHhead ul li a{
+    text-decoration: none;
+    font-weight: 500;
+font-size: 18px;
+line-height: 20px;
+color: #18216D;
+}
+.NHhead ul li {
+    list-style-type: none;
+}
+.NHbut{
+    display: flex;
+    gap: 45px;
+}
+.NHbut p{
+    padding-top: 15px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #18216D;
+}
+
+.NHbut button{
+    padding: 16px 27px;
+    background: #18216D;
+    border: none;
+border-radius: 6px;
+color: aliceblue;
+cursor: pointer;
+}
+.NHhead ul li a:hover{
+    background-color: aqua;
+    border: none;
+    border-radius: 5px;
+    padding: 4px;
+    transition: 0.7s ease;
+    color: red;
+}
+.NHbut button:hover{
+    background-color: gray;
+    color: black;
+    transition: 0.7s ease;
+    font-weight: 900;
+}
+.NHbest{
+    display: flex;
+  
+}
+.NHonline {
+    padding-top: 160px;
+    width: 50%;
+}
+.NHonline h1{
+    font-weight: 600;
+font-size: 48px;
+line-height: 60px;
+color: #18216D;
+}
+.NHonline p{
+    padding-top: 16px;
+    font-weight: 400;
+font-size: 17px;
+line-height: 28px;
+color: #18216D;
+}
+.NHfor{
+    padding-top: 34px;
+}
+.NHfor button{
+    background: aquamarine;
+    padding: 23px 36px;
+    color: #18216D;
+    border: none;
+    border-radius: 5px;
+
+}
+.NHfor button:hover{
+    background-color: gray;
+    transition: 0.7s ease;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.NHright{
+    width: 60%;
+    padding-top: 100px;
+}
+.NHstartup{
+    padding-top: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+.NHuse p{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 50px;
+    color: #18216D;    
+}
+.NHstartup h1{
+    font-weight: 700;
+font-size: 60px;
+line-height: 70px;
+letter-spacing: -1px;
+color: #18216D;
+}
+.NHstartup img{
+    padding-top: 10px;
+}
+#NHdown{
+    padding-top: 10px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #18216D;
+}
+.NHair{
+  padding-top: 56px;
+}
+.NHair{
+    display: flex;
+    gap: 90px;
+}
+
+.md-main{
+    width: 100%;
+}
+.md-center{
+    width: 80%;
+    margin: auto;
+}
+.md-our{
+    text-align: center;
+}
+.md-our h1{
+    margin-top: 100px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 64px;
+letter-spacing: -1px;
+text-transform: capitalize;
+color: #18216D;
+}
+.md-our p{
+   margin: auto;
+    width: 500px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+text-align: center;
+color: #18216D;
+}
+.md-pris{
+    width: 30%;
+}
+.md-afor{
+    display: flex;
+    justify-content: space-between;
+}
+.md-pris img{
+    margin: 20px 0px;
+}
+.md-pris h1{
+    margin-bottom: 14px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+color: #18216D;
+}
+.md-pris h3{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #18216D;
+}
+.md-pris p{
+margin: 10px 0px;  
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #18216D;
+opacity: 0.6;
+}
+.md-pris a{
+    text-decoration: none;
+}
+.md-integ{
+    width: 100%;
+    background-color: rgb(239, 247, 244);
+    margin-top: 220px;
+    
+}
+.md-next{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.md-with{
+    width: 40%;
+}
+.md-with h1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 48px;
+margin-top: 143px;
+
+
+color: #18216D;
+}
+.md-with p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #18216D;
+margin: 20px 0px;
+opacity: 0.8;
+}
+.md-pic{
+    width: 50%;
+}
+.md-pic img{
+    margin: 60px 0px;
+    width: 100%;
+}
+.md-with button{
+    padding: 10px 20px;
+    background-color: #18216D;
+    border-radius: 5px;
+    color: white;
+    border: none;
+
+}
+.md-with button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+  
+    border: 1px solid  #18216D;
+}
