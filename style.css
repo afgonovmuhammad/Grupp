@@ -2,6 +2,152 @@
     margin: 0;
     padding: 0;
 }
+
+.NHcontainer{
+    width: 100%;
+}
+.NHcenter{
+    margin: auto;
+    width: 80%;
+}
+.NHhead{
+    padding-top: 40px;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 3%;
+    top: 0;
+    z-index: 1;
+    backdrop-filter: blur(7px);
+}
+.NHhead ul {
+    display: flex;
+    gap: 50px;
+}
+.NHhead ul li a{
+    text-decoration: none;
+    font-weight: 500;
+font-size: 18px;
+line-height: 20px;
+color: #18216D;
+}
+.NHhead ul li {
+    list-style-type: none;
+}
+.NHbut{
+    display: flex;
+    gap: 45px;
+}
+.NHbut p{
+    padding-top: 15px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #18216D;
+}
+
+.NHbut button{
+    padding: 16px 27px;
+    background: #18216D;
+    border: none;
+border-radius: 6px;
+color: aliceblue;
+cursor: pointer;
+}
+.NHhead ul li a:hover{
+    background-color: aqua;
+    border: none;
+    border-radius: 5px;
+    padding: 4px;
+    transition: 0.7s ease;
+    color: red;
+}
+.NHbut button:hover{
+    background-color: gray;
+    color: black;
+    transition: 0.7s ease;
+    font-weight: 900;
+}
+.NHbest{
+    display: flex;
+  
+}
+.NHonline {
+    padding-top: 160px;
+    width: 50%;
+}
+.NHonline h1{
+    font-weight: 600;
+font-size: 48px;
+line-height: 60px;
+color: #18216D;
+}
+.NHonline p{
+    padding-top: 16px;
+    font-weight: 400;
+font-size: 17px;
+line-height: 28px;
+color: #18216D;
+}
+.NHfor{
+    padding-top: 34px;
+}
+.NHfor button{
+    background: aquamarine;
+    padding: 23px 36px;
+    color: #18216D;
+    border: none;
+    border-radius: 5px;
+
+}
+.NHfor button:hover{
+    background-color: gray;
+    transition: 0.7s ease;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.NHright{
+    width: 60%;
+    padding-top: 100px;
+}
+.NHstartup{
+    padding-top: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+.NHuse p{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 50px;
+    color: #18216D;    
+}
+.NHstartup h1{
+    font-weight: 700;
+font-size: 60px;
+line-height: 70px;
+letter-spacing: -1px;
+color: #18216D;
+}
+.NHstartup img{
+    padding-top: 10px;
+}
+#NHdown{
+    padding-top: 10px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #18216D;
+}
+.NHair{
+  padding-top: 56px;
+}
+.NHair{
+    display: flex;
+    gap: 90px;
+}
+
 .md-main{
     width: 100%;
 }
