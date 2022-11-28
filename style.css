@@ -2,6 +2,234 @@
     margin: 0;
     padding: 0;
 }
+
+.Ali-main{
+    display: flex;
+    justify-content: center;
+    padding: 90px 0px 170px;
+}
+.Ali-center{
+    width: 80%;
+}
+.Ali-main2{
+    display: flex;
+    justify-content: space-between;
+
+}
+.ali-left{
+position: relative;
+}
+.A-IMG{
+position: absolute;
+top: 370px;
+right: 350px;
+z-index: -1 ;
+}
+.a-buttt{
+    text-align: center;
+    position: absolute;
+    top:370px;
+    left: 330px;
+    width: 150px;
+    height: 140px;
+    background-color: rgb(240, 243, 243);
+    }
+.ali-right{
+
+}
+.ali-right h1{
+    font-weight: 600;
+font-size: 36px;
+line-height: 48px;
+
+
+color: #18216D;
+}
+.ali-right p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+padding: 15px 0px 10px;
+
+color: #18216D;
+}
+.ali-rr{
+    display: flex;
+    padding: 20px 0px 15px;
+}
+.ali-rr p{
+    font-weight: 500;
+font-size: 18px;
+line-height: 18px;
+color: #18216D;
+}
+.ali-rr img{
+    padding-top: 15px;
+    padding-right: 10px;
+    /* align-items: center; */
+    width: 4%;
+    height: 20px;
+
+}
+.a-buttt{
+    text-align: center;
+    position:absolute;
+    z-index: 1;
+}
+.a-buttt h3{
+    font-weight: 500;
+font-size: 18px;
+line-height: 26px;
+padding: 15px 0px 10px;
+
+color: #18216D;
+}
+.a-buttt button{
+    margin-top: 10px;
+    padding: 5px 15px;
+    font-size: 16px;
+    border: none;
+    background-color: rgb(13, 66, 49);
+    color: rgb(228, 228, 228);
+    cursor: pointer;
+}
+.a-buttt button:hover{
+    background-color: lawngreen;
+    color: blueviolet;
+}
+.Ali-main3{
+    display: flex;
+    justify-content: center;
+}
+.Aplan{
+    font-weight: 600;
+font-size: 48px;
+text-align: center;
+letter-spacing: -1px;
+text-transform: capitalize;
+color: #18216D;
+}
+.Apppppp{
+    font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+text-align: center;
+padding: 15px 0px;
+color: #18216D;
+}
+.Ali-main3 h1,p{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.Ali-bas{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+.Alldi{
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+ 
+}
+.Ali-2but{
+    padding: 5px 5px;
+    background-color: rgb(215, 220, 250);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    opacity: 0.9;
+border-radius: 6px;
+}
+.Ali-2but button{
+    padding: 10px 25px;
+    background-color:  rgb(215, 220, 250);
+    border: none;
+    color: #18216D;
+    font-weight: 500;
+font-size: 17px;
+line-height: 17px;
+}
+.Ali-2but button:hover{
+    background-color: rgb(255, 255, 255);
+    color: #005FEC;
+}
+.Ali-basic{
+    width: 25%;
+    border: 1.5px solid rgb(175, 170, 170);
+    padding: 25px 25px 0px 0px; 
+    border-radius: 2%;
+}
+.a-HH2{
+    padding: 0px 0px 40px;
+    border-bottom: 1.5px solid #a19c9c;
+    width: 110%;
+}
+.a-HH2 h3{
+    font-weight: 600;
+font-size: 24px;
+color: #18216D;
+padding: 0px 0px 0px 30px;
+}
+.a-HH2 span{
+    color: #a19c9c;
+}
+.a-HH2 h2{
+    font-weight: 600;
+font-size: 36px;
+line-height: 48px;
+padding: 2px 0px 0px 30px;
+
+color: #18216D;
+}
+.Ali-gal{
+    display: flex;
+    padding: 8px;
+    cursor: pointer;
+}
+.Ali-gal h1{
+    padding-top: 20px;
+}
+.Ali-gal p{
+    font-weight: 400;
+font-size: 17px;
+color: #18216D;
+
+}
+.Ali-gal p:hover{
+    color: #a19c9c;
+}
+.Ali-gal img{
+    padding-right: 10px;
+    padding-left: 20px;
+
+}
+.abutt{
+    padding: 15px 0px 25px 30px;
+    
+}
+.abutt button{
+    cursor: pointer;
+    padding: 10px 30px ;
+    border: none;
+    background: #005FEC;
+    opacity: 0.7;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 6px;
+    color: #000000;;
+}
+.abutt button:hover{
+    background: #020299;
+    color: white;
+    border-radius: 6px;
+}
+
 .shahrom-pictures{
     background: #FAFAFA;
 }
@@ -396,3 +624,4 @@ opacity: 0.8;
   
     border: 1px solid  #18216D;
 }
+
