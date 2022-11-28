@@ -2,3 +2,121 @@
     margin: 0;
     padding: 0;
 }
+.shahrom-pictures{
+    background: #FAFAFA;
+}
+.shahrom-left-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.shahrom-left h1{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 48px;
+    color: #18216D;
+
+}
+.sh-many{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 44px;
+    color: #18216D;
+    opacity: 0.9;
+}
+.Manager{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #18216D;
+    opacity: 0.6;
+}
+.shahrom-center{
+    width: 80%;
+    margin: auto;
+}
+.sh-sh{
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+    color: #18216D;
+    margin-top: 15px;
+}
+
+.shglavni{
+    padding-top:80px ;
+    display: flex;
+   justify-content: space-between;
+}
+.sh-we{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 15px 0px;
+    color: #18216D;
+    opacity: 0.9;
+}
+.sh-ul ul li a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #18216D;
+    opacity: 0.8;
+    padding: 10px;
+}
+.sh-ul ul li{
+    list-style:none ;
+}
+.sh-ul ul li a:hover{
+   background-color:grey;
+   border-radius: 10px  ;
+}
+.sh-ul ul li{
+    list-style:none ;
+}
+.sh3 h1{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    color: #18216D;
+    padding: 10px;
+}
+.sh123 ul li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #18216D;
+    opacity: 0.8;
+    
+}
+.sh123 ul li {
+    list-style: none;
+    
+}
+.sh123 ul li a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #18216D;
+    opacity: 0.8;
+    
+}
+.shsh1{
+    opacity: 0.1;
+    border: 2px solid #18216D;   
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.shsh55{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #18216D;
+    opacity: 0.8;
+    text-align: center;
+    padding-bottom: 50px;
+}
