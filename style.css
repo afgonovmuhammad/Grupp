@@ -100,11 +100,19 @@ color: #18216D;
 .Ali-main3{
     display: flex;
     justify-content: center;
+    
+}
+.divcha{
+    /* text-align:center; */
+    margin: auto;
+    display: flex;
+    justify-content: center ;
 }
 .Aplan{
     font-weight: 600;
 font-size: 48px;
 text-align: center;
+margin: auto;
 letter-spacing: -1px;
 text-transform: capitalize;
 color: #18216D;
@@ -120,8 +128,8 @@ color: #18216D;
 .Ali-main3 h1,p{
     display: flex;
     align-items: center;
-    text-align: center;
-    justify-content: center;
+    /* text-align: center;
+    justify-content: center; */
 }
 .Ali-bas{
     padding-top: 50px;
@@ -144,7 +152,7 @@ color: #18216D;
     text-align: center;
     justify-content: center;
     opacity: 0.9;
-border-radius: 6px;
+    border-radius: 6px;
 }
 .Ali-2but button{
     padding: 10px 25px;
@@ -246,14 +254,14 @@ color: #18216D;
     color: #18216D;
 
 }
-.sh-many{
+.sh-manyyy{
     font-weight: 500;
     font-size: 24px;
     line-height: 44px;
     color: #18216D;
     opacity: 0.9;
 }
-.Manager{
+.Managerrr{
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
@@ -621,7 +629,6 @@ opacity: 0.8;
     cursor: pointer;
     background-color: white;
     color: black;
-  
     border: 1px solid  #18216D;
 }
 
